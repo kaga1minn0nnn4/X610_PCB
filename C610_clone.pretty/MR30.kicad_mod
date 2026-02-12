@@ -1,0 +1,114 @@
+(footprint "MR30"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -23.32 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "49a6566b-367e-4519-9046-b250418e4640")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MR30"
+		(at 0 -21.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f340bbfc-2772-4acc-bdf8-6524cd3730e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -22.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ed82c1a-25eb-4447-9b5e-bd02c3d331dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -22.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c8343f-88a5-41c3-b075-c377ca4bf98a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -22.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bf5fb28-b4f4-4607-8a45-1d9858d69d75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.45 -5.25)
+		(end 9.45 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4141bd86-4529-430c-a8b1-a3597552cd5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -20.32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50d937c4-d20d-47d8-9647-959b964d0a55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "dcad64b8-32a2-43fc-a170-efc7123e14e9")
+	)
+	(pad "2" smd rect
+		(at 3.5 0)
+		(size 3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "08893581-8646-44cd-b30e-25df1db07431")
+	)
+	(pad "3" smd rect
+		(at 7 0)
+		(size 3 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "81f0cb88-0d20-42e1-ac54-612fbc61ebdf")
+	)
+)
