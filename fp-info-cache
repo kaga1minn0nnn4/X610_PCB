@@ -1,4 +1,4 @@
-25679874439694463
+25681655501908619
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102738,6 +102738,13 @@ A31ASP24VDC2
 0
 11
 5
+mylib
+B03B-PASK-1
+
+
+0
+3
+3
 mylib
 B04B-PASK-1
 

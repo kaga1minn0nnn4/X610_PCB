@@ -3628,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 77.47) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a900a73c-5317-4c07-b6a0-ed8746564937")
+	)
+	(wire
+		(pts
 			(xy 109.22 33.02) (xy 120.65 33.02)
 		)
 		(stroke
@@ -4550,6 +4560,17 @@
 			(justify left)
 		)
 		(uuid "5544cf51-5a54-44bc-a9c1-f48fb86d04fc")
+	)
+	(hierarchical_label "nSLEEP"
+		(shape output)
+		(at 177.8 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f2f506f-6d2c-4820-8435-8f333ce0e787")
 	)
 	(hierarchical_label "nFAULT"
 		(shape input)
